@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    padding: 20px;
+}
+.formulaire{
+    background: #2d85b0;
+    width: 600px;
+    margin:0px 0px 0px 430px;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.style{
+    display: flex;
+    justify-content: space-between;
+}
