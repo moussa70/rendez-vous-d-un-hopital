@@ -9,48 +9,48 @@
      private $username;
      private $id_role=2;
 
-     public function setnom($nom){
+     public function setNom($nom){
          $this->nom = $nom;
      }
-     public function setprenom($prenom){
+     public function setPrenom($prenom){
         $this->prenom = $prenom;
      }
-     public function setpasswd($passwd){
+     public function setPasswd($passwd){
         $this->passwd = $passwd;
      }
-     public function settelephone($telephone){
+     public function setTelephone($telephone){
         $this->telephone = $telephone;
      }
-     public function setemail($email){
+     public function setEmail($email){
         $this->email = $email;
      }
-     public function setusername($username){
+     public function setUsername($username){
         $this->username = $username;
      }
-     public function setid_role($id_role){
+     public function setId_role($id_role){
         $this->id_role = $id_role;
      }
 
      //Get the person's name.
-     public function getnom(){
-         return $this->setnom;
+     public function getNom(){
+         return $this->nom;
      }
-     public function getprenom(){
+     public function getPrenom(){
         return $this->prenom;
     }
-    public function getpasswd(){
+    public function getPasswd(){
         return $this->passwd;
     }
-    public function gettelephone(){
+    public function getTelephone(){
         return $this->telephone;
     }
-    public function getemail(){
+    public function getEmail(){
         return $this->email;
     }
-    public function getusername(){
+    public function getUsername(){
         return $this->username;
     }
-    public function getid_role(){
+    public function getId_role(){
         return $this->id_role;
     }
     public function hydrate(array $donnees){
