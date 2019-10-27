@@ -1,7 +1,6 @@
 <?php
    class Secretaire
    {
-     private $id;
      private $prenom;
      private $nom;
      private $passwd;
@@ -9,9 +8,7 @@
      private $email;
      private $username;
      private $id_role=2;
-     public function setid($id){
-         $this->id = $id;
-     }
+
      public function setnom($nom){
          $this->nom = $nom;
      }
@@ -30,14 +27,11 @@
      public function setusername($username){
         $this->username = $username;
      }
-     public function setid($id_role){
+     public function setid_role($id_role){
         $this->id_role = $id_role;
      }
 
      //Get the person's name.
-     public function getid(){
-         return $this->id;
-     }
      public function getnom(){
          return $this->setnom;
      }

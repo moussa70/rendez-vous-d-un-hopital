@@ -68,7 +68,7 @@
              </div> 
              <div class="input-group">
                 <label>password</label>
-            <input type="text" name="password">
+            <input type="text" name="passwd">
              </div>
              <div class="input-group">
             <button type="submit" name="save" class="btn">save</button>
